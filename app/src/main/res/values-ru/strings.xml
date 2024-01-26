@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Голодная собака</string>
+    <string name="new_game">Новая игра</string>
+    <string name="score">"Кости: "</string>
+    <string name="exit">Выход</string>
+    <string name="settings">Настройки</string>
+    <string name="sound_in_game">Звук</string>
+    <string name="life">"Жизни: "</string>
+    <string name="level_num">"Уровень "</string>
+    <string name="time">"Время: "</string>
+    <string name="continue_game">Продолжить</string>
+    <string name="level_1">Уровень 1</string>
+    <string name="level_2">Уровень 2</string>
+    <string name="level_3">Уровень 3</string>
+    <string name="level_4">Уровень 4</string>
+    <string name="level_5">Уровень 5</string>
+    <string name="level_6">Уровень 6</string>
+    <string name="level_7">Уровень 7</string>
+    <string name="level_8">Уровень 8</string>
+    <string name="level_9">Уровень 9</string>
+    <string name="result_lose">Игра окончена. Вы проиграли</string>
+    <string name="result_win">Ты выиграл. Поздравляем!</string>
+    <string name="rules">Правила:\nсобирайте косточки и сердца, уворачивайтесь от медведя, тигра и пылесоса</string>
+    <string name="level_10">Уровень 10</string>
+    <string name="records">Рекорды</string>
+    <string name="secs">сек</string>
+    <string name="record">"Рекорд: "</string>
+    <string name="new_record">Установлен новый рекорд</string>
+</resources>
