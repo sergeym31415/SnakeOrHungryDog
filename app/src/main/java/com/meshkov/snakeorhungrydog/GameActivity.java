@@ -464,7 +464,6 @@ public class GameActivity extends AppCompatActivity {
         Paint paintFrame;
         Paint paintTextScore;
         Paint paintBoneNominal;
-        Bitmap bitmapBackgroundFromSVG;
         Bitmap bitmapArrows;
         Bitmap bitmapHeart;
         Paint paintBone;
@@ -538,9 +537,6 @@ public class GameActivity extends AppCompatActivity {
         protected void onDraw(Canvas canvas) {
             if (!flag_init) {
                 flag_init = true;
-                bitmapBackgroundFromSVG = MySVG.getBitmapFromVectorDrawable(getContext(),
-                        R.drawable.green, countColumns * STEP_GRID,
-                        countRows * STEP_GRID);
                 bitmapArrows = MySVG.getBitmapFromVectorDrawable(getContext(), R.drawable.arrows,
                         2 * RADIUS_BUTTON, 2 * RADIUS_BUTTON);
                 bitmapHeart = MySVG.getBitmapFromVectorDrawable(getContext(), R.drawable.heart,
